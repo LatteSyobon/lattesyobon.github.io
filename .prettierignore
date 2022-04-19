@@ -1,9 +1,4 @@
-.cache
-public
-static
-node_modules
-.vscode
-.idea
-post-types.json
-taxonomies.json
-acf-field-groups.json
+build/
+node_modules/
+package-lock.json
+yarn.lock

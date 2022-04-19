@@ -1,315 +1,151 @@
-<a href="https://www.gatsbyjs.com">
-  <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-</a>
+<img width="914" alt="React Boilerplate Meets CRA" src="https://user-images.githubusercontent.com/3495307/80274591-2d5daa00-86e4-11ea-8fba-404f1cdba87e.png" align="center">
+<br />
 
-# Gatsby Starter Contentful Homepage
+<div align="center" >Crafted for <strong>highly scalable</strong> & <strong>performant</strong> and <strong>easily maintainable</strong> React.js applications <br /> 
+with a focus on  
+<strong>best DX</strong> and <strong>best practices</strong>.
+</div>
 
-Create a homepage using Gatsby and Contentful. This starter demonstrates how to use Contentful to build a homepage and can be customized to match your own visual branding.
+<br />
 
-[View the Demo](https://gatsbycontentfulhomepage.gatsbyjs.io/)
+<div align="center">
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Abuild">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/build/badge.svg" alt="Build Status" />
+  </a>
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Atests">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/test/badge.svg" alt="Tests Status" />
+  </a>
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%release">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/release/badge.svg" alt="Release Status" />
+  </a>
+</div>
 
-**Note:**
-This version of the Contentful homepage starter is written in JavaScript. If you want to use Contentful but TypeScript is more your style, there is also a TypeScript version maintained on [GitHub](https://github.com/gatsbyjs/gatsby-starter-contentful-homepage-ts).
+<div align="center">
+  <a href="https://coveralls.io/github/react-boilerplate/react-boilerplate-cra-template">
+    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate-cra-template/badge.svg?branch=master" alt="Coverage" />
+  </a>
+  <a href="https://opencollective.com/react-boilerplate">
+    <img src="https://opencollective.com/react-boilerplate/backers/badge.svg" alt="Backers" />
+  </a>
+  <a href="https://opencollective.com/react-boilerplate/">
+    <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
+  </a>
+</div>
 
-## Quick start
+<br />
 
-You will need a new or existing [Contentful space][] to use this starter and will be asked for your [Space ID][], [Content Management API Key][] (also referred to as a Personal Access Token) and [Content Delivery API Key][] during installation.
+---
 
-[contentful space]: https://www.contentful.com/help/contentful-101/#step-2-create-a-space
-[space id]: https://www.contentful.com/help/find-space-id/
-[content delivery api key]: https://www.contentful.com/developers/docs/references/authentication/#api-keys-in-the-contentful-web-app
-[content management api key]: https://www.contentful.com/developers/docs/references/authentication/#the-content-management-api
+The official [Create React App](https://github.com/facebook/create-react-app) template of the `discontinued` [React Boilerplate](https://github.com/react-boilerplate/react-boilerplate)
 
-1. **Create a Gatsby site**
+Start your `create-react-app` projects in seconds with the best, industry-standard tools and practices made ready for you.
 
-   Use the Gatsby CLI to get started locally:
+**📚 Documentation:** [Gitbook](https://cansahin.gitbook.io/react-boilerplate-cra-template/)
 
-   ```sh repo
-   npx gatsby new my-homepage https://github.com/gatsbyjs/gatsby-starter-contentful-homepage
-   ```
+**🎨 Check the example app:** [Demonstrating the features](https://react-boilerplate.github.io/react-boilerplate-cra-template/)
 
-1. **Run the Contentful setup script**
+**📂 Browse in VS Code:** [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/react-boilerplate/react-boilerplate-cra-template)
 
-   From your site's root directory, run:
+**📦 Package:** [npm](https://www.npmjs.com/package/cra-template-rb)
 
-   ```sh
-   cd my-homepage
-   yarn setup
-   ```
+![version](https://img.shields.io/npm/v/cra-template-rb)
+![version](https://img.shields.io/npm/dm/cra-template-rb)
 
-   This will run a script to populate your Contentful space's content model and add demo content.
+---
 
-1. **Start developing**
+## Install & Start
 
-   In your site directory, start the development server:
+⚠️ Using [Yarn Package Manager](https://yarnpkg.com) is recommended over `npm`.
 
-   ```sh
-   yarn start
-   ```
+Create React App with the template
 
-   Your site should now be running at <http://localhost:8000>
-
-1. **Open the source code and start editing**
-
-## Deploy your site
-
-Once your content is available in Contentful, deploy your site to [Gatsby Cloud](https://gatsbyjs.com/products/cloud):
-
-1. Push your local site to a new repo in either GitHub, GitLab, or Bitbucket
-1. Log into your [Gatsby Cloud Dashboard][] and click on **Add a site**
-1. Use the **Import from a Git repository** option to find your site
-1. Add the environment variables from your `.env.production` file to Gatsby Cloud during setup
-1. Click **Build site** and your site should start building
-
-For a more detailed walkthrough, see the tutorial on how to [build your site with Gatsby Cloud][tutorial].
-
-[gatsby cloud dashboard]: https://gatsbyjs.com/dashboard
-[tutorial]: https://www.gatsbyjs.com/docs/tutorial/part-1/#build-your-site-with-gatsby-cloud
-
-### Deploy without using the CLI
-
-Alternatively, you can deploy this starter directly to Gatsby Cloud.
-Note that you will need to set up your content in Contentful manually.
-
-[![Deploy to Gatsby](https://www.gatsbyjs.com/deploynow.png "Deploy to Gatsby")](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-contentful-homepage)
-
-## Setting up Gatsby Cloud Preview
-
-To use Gatsby Cloud Preview with this site, see the documentation for
-[Installing Content Sync for Contentful][].
-
-[installing content sync for contentful]: https://support.gatsbyjs.com/hc/en-us/articles/4410371995539-Installing-Content-Sync-for-Contentful
-[add the gatsby cloud app to contentful]: https://support.gatsbyjs.com/hc/en-us/articles/360056047134-Add-the-Gatsby-Cloud-App-to-Contentful
-[connecting to contentful manually]: https://support.gatsbyjs.com/hc/en-us/articles/360052076554-Connecting-to-Contentful-Manually
-
-## What's included?
-
-```sh
-├── README.md
-├── gatsby-config.js
-├── gatsby-node.js
-├── src
-│   ├── components
-│   ├── pages
-│   ├── colors.css.ts
-│   ├── styles.css.ts
-│   └── theme.css.ts
-└── .env.EXAMPLE
+```shell
+yarn create react-app --template cra-template-rb my-app
 ```
 
-1. **`gatsby-config.js`**: [Gatsby config][] file that includes plugins required for this starter.
-1. **`gatsby-node.js`**: [Gatsby Node][] config file that creates an abstract data model for the homepage content.
-1. **`src/`**: The source directory for the starter, including pages, components, and [Vanilla Extract][] files for styling.
+Start and check our example app, if you want
 
-[gatsby config]: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
-[gatsby node]: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
-[vanilla extract]: https://vanilla-extract.style/
-
-## How to
-
-### Update the color theme
-
-To update the colors used in this starter, edit the `src/colors.css.ts` file.
-
-```.ts
-// src/colors.css.ts
-export const colors = {
-  background: "#ffd500",
-  text: "#005bbb",
-  primary: "#005bbb",
-  muted: "#f5cc00",
-  active: "#004287",
-  black: "#000",
-}
-
+```shell
+cd my-app
+yarn start
 ```
 
-If you'd like to add additional colors, add additional keys to this object.
-This file is imported into `src/theme.css.ts` and creates CSS custom properties, that can be imported and used in other `.css.ts` files.
+Remove the example app to start your project!
 
-The UI components file `src/components/ui.js` imports styles from `src/components/ui.css.ts`. You can see how the theme and color values are being used in this file.
-
-### Add your logo
-
-![Logo](./docs/images/logo.png)
-
-Replace the `src/components/brand-logo.js` component with your own brand logo.
-If you have an SVG version, it can be rendered inline as a React component, following the example in this file. Note that SVG attributes will need to be camel cased for JSX.
-
-Using an inline SVG for the logo allows it to pick up the colors used in CSS, which is how the logo colors are inverted for the mobile menu.
-
-If you prefer to use an image, use the [`StaticImage`](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#staticimage) component from `gatsby-plugin-image` in place of the SVG in this file.
-
-### Customize headings, buttons, and other styles
-
-![Headings & Buttons](./docs/images/headings-buttons.png)
-
-To further customize the look and feel of the homepage, edit the UI components in `src/components/ui.js` and styles in `src/components/ui.css.ts`.
-
-### Customize section components
-
-To customize any of the sections of the homepage, edit the relevant component in `src/components`.
-Most of the styles for these components are handled with shared UI components in `src/components/ui.js`.
-
-### Create custom section components
-
-To create a new type of section in your homepage, you'll want to create a new section component, using the existing components as an example.
-For this example, we'll create a new "Banner" component.
-
-1. First, update your content model in Contentful
-
-   1. In your Contentful space, create a new content type and call it "Homepage Banner."
-
-      <img src="./docs/images/step-1.png" alt="Step 1" width="300" />
-
-   1. For this example, add two fields to your new content type: `heading` and `text` – these can be _Short text_ types.
-
-      <img src="./docs/images/step-2.png" alt="Step 2" width="300" />
-      <img src="./docs/images/step-3.png" alt="Step 3" width="300" />
-      <img src="./docs/images/step-4.png" alt="Step 4" width="300" />
-
-   1. Find the content type for _Homepage_ in Contentful and edit the settings for the _Content_ field. Under _Validation_, ensure that the new _Homepage Banner_ type is checked to make it available as a content type on the Homepage.
-
-      <img src="./docs/images/step-5.png" alt="Step 5" width="500" />
-      <img src="./docs/images/step-6.png" alt="Step 6" width="500" />
-      <img src="./docs/images/step-7.png" alt="Step 7" width="500" />
-
-   1. Navigate to the _Content_ tab to edit the _Homepage_ and add a section with this new _Homepage Banner_ content type.
-
-      <img src="./docs/images/step-8.png" alt="Step 8" width="500" />
-      <img src="./docs/images/step-9.png" alt="Step 9" width="500" />
-
-1. Update `gatsby-node.js`
-
-   Edit your site's `gatsby-node.js` file, adding an interface for `HomepageBanner` that matches your content model in Contentful.
-   This allows the homepage to query the abstract `HomepageBanner` type.
-
-   ```js
-   // in gatsby-node.js
-   exports.createSchemaCustomization = async ({ actions }) => {
-     // ...
-     actions.createTypes(`
-       interface HomepageBanner implements Node & HomepageBlock {
-         id: ID!
-         blocktype: String
-         heading: String
-         text: String
-       }
-     `)
-     // ...
-     actions.createTypes(`
-       type ContentfulHomepageBanner implements Node & HomepageBanner & HomepageBlock @dontInfer {
-         id: ID!
-         blocktype: String @blocktype
-         heading: String
-         text: String
-       }
-     `)
-     // ...
-   }
-   ```
-
-1. Next, create the Banner component:
-
-   ```jsx fileExt
-   // src/components/banner.js
-   import * as React from "react"
-   import { graphql } from "gatsby"
-   import { Section, Container, Heading, Text } from "./ui"
-
-   export default function Banner(props) {
-     return (
-       <Section>
-         <Container>
-           <Heading>{props.heading}</Heading>
-           <Text>{props.text}</Text>
-         </Container>
-       </Section>
-     )
-   }
-
-   export const query = graphql`
-     fragment HomepageBannerContent on HomepageBanner {
-       id
-       heading
-       text
-     }
-   `
-   ```
-
-1. Export the component from `src/components/sections.js`
-
-   ```js fileExt
-   // src/components/sections.js
-   export { default as HomepageHero } from "./hero"
-   export { default as HomepageFeature } from "./feature"
-   export { default as HomepageFeatureList } from "./feature-list"
-   export { default as HomepageLogoList } from "./logo-list"
-   export { default as HomepageBenefitList } from "./benefit-list"
-   export { default as HomepageTestimonialList } from "./testimonial-list"
-   export { default as HomepageStatList } from "./stat-list"
-   export { default as HomepageCta } from "./cta"
-   export { default as HomepageProductList } from "./product-list"
-
-   // add export for new component
-   export { default as HomepageBanner } from "./banner"
-   ```
-
-1. Add the GraphQL query fragment to the query in `src/pages/index.js`
-
-   ```js fileExt
-   // in src/pages/index.js
-   export const query = graphql`
-     {
-       homepage {
-         id
-         title
-         description
-         image {
-           id
-           url
-         }
-         blocks: content {
-           id
-           blocktype
-           ...HomepageHeroContent
-           ...HomepageFeatureContent
-           ...HomepageFeatureListContent
-           ...HomepageCtaContent
-           ...HomepageLogoListContent
-           ...HomepageTestimonialListContent
-           ...HomepageBenefitListContent
-           ...HomepageStatListContent
-           ...HomepageProductListContent
-           # New component fragment
-           ...HomepageBannerContent
-         }
-       }
-     }
-   `
-   ```
-
-## Troubleshooting
-
-### Errors after making changes to the schema
-
-If you've made changes to the `gatsby-node.js` file or changes to the Contentful data model, clear the Gatsby cache before running the develop server:
-
-```sh
-yarn clean && yarn start
+```shell
+yarn cleanAndSetup
 ```
 
 ---
 
-## 🎓 Learning Gatsby
+## Features
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+> This project is **NOT** a framework, UI component library or a design system. The only purpose of this template is to assist you starting your CRA app with a solid tool stack and development patterns. It's 100% customizable. After you start your journey and once you understand the concepts offered here you should personalize your code accordingly instead of being tied to the starter project.
+>
+> You can add or remove literally anything and use whichever library or tools you prefer.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).**
+<dl>
 
-## 💫 Deploy
+  <dt>Predictable state management</dt>
+  <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
 
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
+  <dt>Instant feedback</dt>
+  <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!</dd>
 
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
+  <dt>Next generation CSS</dt>
+  <dd>Write composable CSS that's co-located with your components for complete modularity. Unique generated class names keep the specificity low while eliminating style clashes. Ship only the styles that are on the page for the best performance.</dd>
+
+  <dt>Industry-standard routing</dt>
+  <dd>It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible.</dd>
+
+  <dt>Industry-standard i18n internationalization support</dt>
+  <dd>Scalable apps need to support multiple languages, easily add and support multiple languages.</dd>
+
+  <dt>Typescript</dt>
+  <dd>Typescript is the key to scalability. Build self-documented code, easy-to-debug code and create maintainable large applications and codebases with a highly productive development experience.</dd>
+
+  <dt>Quick scaffolding</dt>
+  <dd>Create components, containers, routes, selectors and sagas - and their tests - right from the CLI!</dd>
+
+  <dt>Static code analysis</dt>
+  <dd>Focus on writing new features without worrying about formatting or code quality. With the right editor setup, your code will automatically be formatted and linted as you work.</dd>
+
+  <dt>SEO</dt>
+  <dd>We support SEO (document head tags management) for search engines that support indexing of JavaScript content. (eg. Google)</dd>
+</dl>
+
+But wait... there's more!
+
+- _The best test setup:_ Automatically guarantee code quality and non-breaking
+  changes. (Seen a react app with 100% test coverage before?)
+- _The fastest fonts:_ Say goodbye to vacant text.
+- _Stay fast_: Profile your app's performance from the comfort of your command
+  line!
+
+<sub><i>Keywords: Create React App, React Boilerplate, Custom Template, Typescript, React.js, Redux, Hot Reloading, ESNext, Babel, react-router, `styled-components`, redux-saga, FontFaceObserver</i></sub>
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Can-Sahin"><img src="https://avatars2.githubusercontent.com/u/33245689?s=80" width="80px;" alt=""/><br /><sub><b>Can Sahin</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Code">💻</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Documentation">📖</a> <a href="#ideas-Can-Sahin" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/pulls?q=is%3Apr+reviewed-by%3ACan-Sahin" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=Can-Sahin" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/receptiryaki"><img src="https://avatars0.githubusercontent.com/u/3495307?s=80" width="80px;" alt=""/><br /><sub><b>Recep Tiryaki</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=receptiryaki" title="Code">💻</a> <a href="#ideas-receptiryaki" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-receptiryaki" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/mogsdad"><img src="https://avatars3.githubusercontent.com/u/1707731?s=80" width="80px;" alt=""/><br /><sub><b>David Bingham</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=mogsdad" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/lourensdev"><img src="https://avatars.githubusercontent.com/u/5746141?v=4?s=80" width="80px;" alt=""/><br /><sub><b>Lourens de Villiers</b></sub></a><br /><a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/commits?author=lourensdev" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+This project is licensed under the MIT license, Copyright (c) 2019 Maximilian Stoiber.
+For more information see `LICENSE.md`.
