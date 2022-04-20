@@ -20,4 +20,6 @@ export const messages = {
   scaffoldingDescription: () => _t(translations.scaffoldingFeature.description),
   i18nTitle: () => _t(translations.i18nFeature.title),
   i18nDescription: () => _t(translations.i18nFeature.description),
+  lattexProductTitle: () => _t(translations.lattexProduct.title),
+  lattexProductDescription: () => _t(translations.lattexProduct.description)
 };

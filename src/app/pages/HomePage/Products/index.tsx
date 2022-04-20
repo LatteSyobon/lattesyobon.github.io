@@ -21,23 +21,20 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'app/components/Link';
 import { messages } from '../messages';
 
-export function Features() {
+export function Products() {
   const { t } = useTranslation();
 
   return (
     <>
-      <Title as="h2">Features</Title>
+      <Title as="h2">{t(messages.lattexProductTitle())}</Title>
       <Lead>
-        Crafted for <strong>highly scalable</strong>,{' '}
-        <strong>easily maintainable</strong> and{' '}
-        <strong>highly performant</strong> React.js applications with a focus on{' '}
-        <strong>best DX</strong> and <strong>best practices</strong>.
+        {t(messages.lattexProductDescription())}
       </Lead>
       <List>
         <Feature>
           <StateIcon className="feature-icon" />
           <Content>
-            <SubTitle>Predictable State</SubTitle>
+            <SubTitle>NXUI</SubTitle>
             <P>
               Build easy to test and debug, flexible and extensible applications
               using{' '}

@@ -15,5 +15,10 @@
   "scaffoldingFeature": {
     "title": "Quick Scaffolding",
     "description": "Automate the creation of components, features, routes, selectors and sagas - and their tests - right from the CLI! Avoid fighting the glue of your code and focus on your app!"
+  },
+
+  "lattexProduct": {
+    "title": "LatteSyobon's Products!",
+    "description": "Here's a sampling of LatteSyobon's work! There are more, so check out the GitHub for more!"
   }
 }

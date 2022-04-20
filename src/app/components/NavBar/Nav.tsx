@@ -7,22 +7,13 @@ export function Nav() {
   return (
     <Wrapper>
       <Item
-        href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
-        target="_blank"
-        title="Documentation Page"
-        rel="noopener noreferrer"
-      >
-        <DocumentationIcon />
-        Documentation
-      </Item>
-      <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
+        href="https://github.com/LatteSyobon"
         target="_blank"
         title="Github Page"
         rel="noopener noreferrer"
       >
         <GithubIcon />
-        Github
+        GitHub
       </Item>
     </Wrapper>
   );

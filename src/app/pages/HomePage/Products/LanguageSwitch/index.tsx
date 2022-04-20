@@ -27,7 +27,7 @@ export function LanguageSwitch() {
         />
         <Radio
           id="tr"
-          label="Japanese"
+          label="日本語"
           className="radio"
           name="language"
           onChange={handleLanguageChange}

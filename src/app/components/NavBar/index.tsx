@@ -4,7 +4,7 @@ import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';
 import { Nav } from './Nav';
 import { PageWrapper } from '../PageWrapper';
-import { LanguageSwitch } from 'app/pages/HomePage/Features/LanguageSwitch';
+import { LanguageSwitch } from 'app/pages/HomePage/Products/LanguageSwitch';
 
 export function NavBar() {
   return (
