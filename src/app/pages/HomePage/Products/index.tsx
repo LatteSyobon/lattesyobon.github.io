@@ -34,30 +34,31 @@ export function Products() {
         <Feature>
           <StateIcon className="feature-icon" />
           <Content>
-            <SubTitle>NXUI</SubTitle>
+            <SubTitle>NXUI - Native X UI</SubTitle>
             <P>
-              Build easy to test and debug, flexible and extensible applications
-              using{' '}
+              {' '}
               <A
-                href="https://redux.js.org/basics/usage-with-react"
+                href="https://github.com/LatteSyobon/nxui"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Redux
+                NXUI
               </A>
-              . Unidirectional data flow allows for change logging and time
-              travel debugging.{' '}
+              {t(messages.lattexProductNXUIDescription())}
+            </P>
+            <SubTitle>Xink</SubTitle>
+            <P>
+            {' '}
               <A
-                href="https://github.com/zalmoxisus/redux-devtools-extension"
+                href="https://github.com/LatteSyobon/nxui"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Install Chrome Redux Dev Tools
-              </A>{' '}
-              to see how your application's state changes and travel in time to
-              debug. Type any github username below and see it in action with
-              Redux Dev Tools.
+                Xink
+              </A>
+              {t(messages.lattexProductXinkDescription())}
             </P>
+            <SubTitle>{t(messages.lattexProductOtherRepository())}</SubTitle>
             <GithubRepoForm />
           </Content>
         </Feature>

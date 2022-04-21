@@ -21,5 +21,9 @@ export const messages = {
   i18nTitle: () => _t(translations.i18nFeature.title),
   i18nDescription: () => _t(translations.i18nFeature.description),
   lattexProductTitle: () => _t(translations.lattexProduct.title),
-  lattexProductDescription: () => _t(translations.lattexProduct.description)
+  lattexProductDescription: () => _t(translations.lattexProduct.description),
+  lattexProductOtherRepository: () => _t(translations.lattexProduct.other_repo),
+  lattexProductNXUIDescription: () => _t(translations.lattexProduct.nxui_desc),
+  lattexProductXinkDescription: () => _t(translations.lattexProduct.xink_desc),
+  notFound: () => _t(translations.notFound.notfound)
 };

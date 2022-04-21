@@ -16,9 +16,14 @@
     "title": "Quick Scaffolding",
     "description": "Automate the creation of components, features, routes, selectors and sagas - and their tests - right from the CLI! Avoid fighting the glue of your code and focus on your app!"
   },
-
+  "notFound": {
+    "notfound": "The requested page could not be found."
+  },
   "lattexProduct": {
     "title": "LatteSyobon's Products!",
-    "description": "Here's a sampling of LatteSyobon's work! There are more, so check out the GitHub for more!"
+    "description": "Here's a sampling of LatteSyobon's work! There are more, so check out the GitHub for more!",
+    "other_repo": "Other Repositories",
+    "nxui_desc": " is a high-speed, cross-platform GUI toolkit made in Rust language. NXUI calls APIs close to the OS as much as possible to achieve high speed. Other features of the Rust language are also used to make it cross-platform.",
+    "xink_desc": "は、NXUIを使用して作成されたオープンソースのテキストエディターです。"
   }
 }

@@ -16,8 +16,14 @@
     "title": "Schnelles Scaffolding",
     "description": "Automatisieren Sie die Kreation von Komponenten, Containern, Routen, Selektoren und Sagas – und ihre Tests – direkt von dem Terminal!"
   },
+  "notFound": {
+    "notfound": "リクエストされたページは見つかりませんでした"
+  },
   "lattexProduct": {
     "title": "LatteSyobonの作品たち！",
-    "description": "ここではの作品たちの一部を紹介するよ！他にもあるから詳しくはGitHubの方も見てね！"
+    "description": "ここではの作品たちの一部を紹介するよ！他にもあるから詳しくはGitHubの方も見てね！",
+    "other_repo": "その他のリポジトリたち",
+    "nxui_desc": "は、Rust言語で作られた高速でクロスプラットフォームなGUIツールキットです。NXUIはOSに近いAPIを可能な限り呼び出し、高速化を実現しています。その他、Rust言語の特徴を生かし、クロスプラットフォーム化を実現しています。",
+    "xink_desc": "は、NXUIを使用して作成されたオープンソースのテキストエディターです。"
   }
 }
